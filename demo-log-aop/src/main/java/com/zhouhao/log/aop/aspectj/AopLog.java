@@ -1,4 +1,4 @@
-package com.xkcoding.log.aop.aspectj;
+package com.zhouhao.log.aop.aspectj;
 
 import cn.hutool.core.util.ArrayUtil;
 import cn.hutool.json.JSONUtil;
@@ -42,7 +42,7 @@ public class AopLog {
     /**
      * 切入点
      */
-    @Pointcut("execution(public * com.xkcoding.log.aop.controller.*Controller.*(..))")
+    @Pointcut("execution(public * com.zhouhao.log.aop.controller.*Controller.*(..))")
     public void log() {
 
     }

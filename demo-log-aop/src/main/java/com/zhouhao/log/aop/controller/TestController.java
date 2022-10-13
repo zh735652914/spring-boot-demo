@@ -1,4 +1,4 @@
-package com.xkcoding.log.aop.controller;
+package com.zhouhao.log.aop.controller;
 
 import cn.hutool.core.lang.Dict;
 import cn.hutool.core.util.StrUtil;
@@ -35,8 +35,14 @@ public class TestController {
         return Dict.create().set("who", StrUtil.isBlank(who) ? "me" : who);
     }
 
+    @GetMapping("/test2")
+    public Dict test2(String who) {
+        return Dict.create().set("用户", StrUtil.isBlank(who) ? "我" : who);
+    }
+
     /**
-     *  测试post json方法
+     * 测试post json方法
+     *
      * @param map 请求的json参数
      * @return {@link Dict}
      */
