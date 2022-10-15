@@ -1,7 +1,7 @@
-package com.xkcoding.properties.property;
+package com.zhouhao.properties.property;
 
 import lombok.Data;
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
@@ -14,9 +14,10 @@ import org.springframework.stereotype.Component;
  */
 @Data
 @Component
+@ConfigurationProperties(prefix = "application")
 public class ApplicationProperty {
-    @Value("${application.name}")
+    //    @Value("${application.name}")
     private String name;
-    @Value("${application.version}")
+    //    @Value("${application.version}")
     private String version;
 }

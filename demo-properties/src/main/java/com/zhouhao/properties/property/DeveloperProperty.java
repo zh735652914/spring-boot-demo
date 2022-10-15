@@ -1,4 +1,4 @@
-package com.xkcoding.properties.property;
+package com.zhouhao.properties.property;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

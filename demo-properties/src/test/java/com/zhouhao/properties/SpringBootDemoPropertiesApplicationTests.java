@@ -1,4 +1,4 @@
-package com.xkcoding.properties;
+package com.zhouhao.properties;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

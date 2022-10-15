@@ -2,7 +2,10 @@ application:
   name: prod环境 @artifactId@
   version: prod环境 @version@
 developer:
-  name: prod环境 xkcoding
-  website: prod环境 http://xkcoding.com
-  qq: prod环境 237497819
-  phone-number: prod环境 17326075631
+  name: prod环境 zhouhao
+  website: prod环境 https://zhouhao.com
+  qq: prod环境 735652914
+  phone-number: prod环境 15910531627
+test:
+  name: prod环境
+  txt: 这是以prod环境的配置运行的
