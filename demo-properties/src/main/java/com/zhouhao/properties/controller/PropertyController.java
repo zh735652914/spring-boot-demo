@@ -34,4 +34,10 @@ public class PropertyController {
         return Dict.create().set("applicationProperty", applicationProperty).set("developerProperty", developerProperty)
             .set("zhouhaoTestProperty", testProperty);
     }
+
+    @GetMapping("/property2")
+    public Dict index2() {
+        return Dict.create().set("applicationProperty", applicationProperty).set("developerProperty", developerProperty)
+            .set("zhouhaoTestProperty", testProperty);
+    }
 }
